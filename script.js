@@ -13,3 +13,8 @@ const showSize = document.querySelector('#show-size');
 const showFont = document.querySelector('#show-font');
 const showColor = document.querySelector('#show-color');
 const showBgColor = document.querySelector('#show-bg-color');
+inputSize.addEventListener('input', handleInputSize);
+selectFont.addEventListener('change', handleSelectFont);
+inputColor.addEventListener('change', handleShowColor);
+inputBgColor.addEventListener('change', handleShowBgColor);
+inputTextArea.addEventListener('change', handleTextArea);
